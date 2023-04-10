@@ -1,0 +1,79 @@
+.cta-box {
+  display: flex;
+  margin: 6rem 12rem;
+  font-family: var(--font-family);
+  justify-content: space-between;
+  background: var(--gradient-bar);
+  border-radius: 1rem;
+}
+.cta-box-text {
+  margin: 0 2rem;
+  flex: 2;
+}
+.cta-box-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+.cta-box-button button {
+  background: #000;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.cta-box-text p {
+  padding-top: 1.5rem;
+  width: 318.87px;
+  height: 46.89px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+
+.cta-box-text h1 {
+  width: 801.87px;
+  height: 70.34px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+  color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+  .cta-box {
+    flex-direction: column;
+  }
+
+  .cta-box-button {
+    margin: 2rem 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cta-box {
+    flex-direction: column;
+    margin: 4rem 2rem;
+  }
+
+  .cta-box-text h1 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .cta-box-button button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
